@@ -42,4 +42,4 @@ dependencies:
     - git+https://github.com/xgcm/xgcm.git
     - git+https://github.com/pydata/xarray.git
     - git+https://github.com/zarr-developers/zarr.git
-    - git+https://github.com/obidam/pyxpcm/pyxpcm.git
+    - git+https://github.com/obidam/pyxpcm.git
