@@ -27,6 +27,7 @@ dependencies:
   - scikit-learn
   - dask-ml
   - seaborn
+  - bottleneck
   - pip:
     - kubernetes
     - graphviz
