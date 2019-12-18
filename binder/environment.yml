@@ -1,4 +1,4 @@
-name: pangeo
+name: pyxpcm
 channels:
   - conda-forge
 dependencies:
