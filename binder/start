@@ -9,14 +9,14 @@ sed -i -e "s|WORKSPACE_ID|/user/${JUPYTERHUB_USER}/lab|g" binder/jupyterlab-work
 jupyter lab workspaces import binder/jupyterlab-workspace.json \
   --NotebookApp.base_url=user/${JUPYTERHUB_USER}
 
-# download data
+# Download data
 cd /home/jovyan
 mkdir data
-cd data
-wget https://storage.googleapis.com/sonific01/ARGO/GLOB_HOMOGENEOUS_variables.tar.gz
-tar -xvzf GLOB_HOMOGENEOUS_variables.tar.gz
-rm GLOB_HOMOGENEOUS_variables.tar.gz
-cd -
+#cd data
+#wget https://storage.googleapis.com/sonific01/ARGO/GLOB_HOMOGENEOUS_variables.tar.gz
+#tar -xvzf GLOB_HOMOGENEOUS_variables.tar.gz
+#rm GLOB_HOMOGENEOUS_variables.tar.gz
+#cd -
 
 #
 exec "$@"
