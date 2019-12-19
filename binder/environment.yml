@@ -8,7 +8,6 @@ dependencies:
   - distributed
   - dask-kubernetes
   - gcsfs
-  - intake::intake-xarray
   - zarr
   - matplotlib
   - numcodecs
@@ -32,3 +31,5 @@ dependencies:
     - kubernetes
     - graphviz
     - git+https://github.com/obidam/pyxpcm.git
+    - git+https://github.com/intake/intake.git@master
+    - git+https://github.com/intake/intake-xarray.git@master
